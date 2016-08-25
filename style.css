@@ -1,0 +1,46 @@
+/*@import url(https://fonts.googleapis.com/css?family=Hind);*/
+
+
+body{
+  font-family: Hind;
+  margin: 0px;
+  background-color: #eee;
+}
+
+.header{
+  background-color: #fff;
+  height: auto;
+  width: auto;
+}
+
+.header-items{
+  margin-top: 10px;
+  margin-right: 40px;
+  text-align: right;
+  position:absolute;;
+  font-family: Helvetica;
+  border: 1px solid;
+  width: auto;
+}
+
+.logo{
+  position: absolute;;
+  display:inline-block;
+  padding: 20px;
+  padding-left: 40px;
+  font-size: 40px;
+  font-weight: 600;
+}
+
+li{
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .logo{
+    padding-left: 20px;
+    font-size: 24px;
+    color: #fff;
+    background-color: #200;
+  }
+}
