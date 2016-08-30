@@ -90,7 +90,8 @@ border-bottom: 3px solid;
 .pagefull{
   text-decoration: underline;
   color: #fff;
-  height: 100vh;
+  max-height: 100vh;
+  overflow:hidden;
 }
 
 .bigtext{
