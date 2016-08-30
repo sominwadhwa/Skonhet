@@ -110,7 +110,7 @@ footer{
   z-index: 0;
   font-weight: 800;
   text-align: center;
-  position:fixed;
+  position:relative;
   bottom:0;
   left:0;
   right:0;
