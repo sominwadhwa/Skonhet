@@ -23,6 +23,11 @@ body{
   height: auto;
 }
 
+.boxed{
+  border: 2px solid black;
+  margin-top: 40px !important;
+  width: 400px !important;
+}
 
 .label{
   margin-top: 40px;
@@ -62,6 +67,43 @@ font-size: 36px;
 transition: .2s ease-out;
 }
 
+.dropbtn{
+  cursor: pointer;
+}
+
+.dropdown{
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content{
+  display: none;
+  position: absolute;
+  background-color: #333;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-content a{
+  color: #fff;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+
+}
+
+.dropdown-content a:hover{
+  background-color: #333;
+}
+
+.dropdown:hover .dropdown-content{
+  display: block;
+}
+
+
+.dropdown:hover .dropbtn{
+background-color: #333;
+}
 
 .header-links{
   top: 35px;
@@ -97,20 +139,21 @@ border-bottom: 3px solid;
 .bigtext{
   font-size: 60px;
   margin-bottom: -25px;
+  color: #fffdf6
 }
 
 .centerthis{
   position: absolute;
-  top: 80%;
-  left: 60%;
+  top: 50%;
+  left: 67%;
   transform: translateY(-50%);
 }
 
-.footer{
+footer{
   z-index: 0;
   font-weight: 800;
   text-align: center;
-  position:relative;
+  position: relative;
   bottom:0;
   left:0;
   right:0;
@@ -138,6 +181,10 @@ border-bottom: 3px solid;
     left: 0;
   }
 
+.carousel{
+
+}
+
   .item img{
     width: 100%;
     height: auto;
@@ -145,6 +192,13 @@ border-bottom: 3px solid;
 
   .header{
     height: 94px;
+  }
+
+  footer{
+    left:0;
+    bottom: 0;
+    right: 0;
+    position: relative;
   }
 
   .header-links{
