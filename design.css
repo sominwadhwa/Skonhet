@@ -69,6 +69,9 @@ transition: .2s ease-out;
 
 .dropbtn{
   cursor: pointer;
+   text-shadow:   0 0 5px #A5F1FF, 0 0 10px #A5F1FF,
+                  0 0 20px #A5F1FF, 0 0 20px #A5F1FF,
+                  0 0 30px #A5F1FF;
 }
 
 .dropdown{
@@ -139,7 +142,8 @@ border-bottom: 3px solid;
 .bigtext{
   font-size: 60px;
   margin-bottom: -25px;
-  color: #fffdf6
+  color: #fffdf6;
+  color: #D0F8FF;
 }
 
 .centerthis{
